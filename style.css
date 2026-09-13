@@ -72,7 +72,7 @@ nav {
   border: 2px solid var(--border);
 }
 @media (max-width: 640px) {
-  .avatar { object-position: center top; }
+  .avatar { object-position:50% 20%; }
 }
 .tag {
   display: inline-flex; align-items: center; gap: 6px;
