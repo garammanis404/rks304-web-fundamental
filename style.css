@@ -71,6 +71,9 @@ nav {
   object-position: center;
   border: 2px solid var(--border);
 }
+@media (max-width: 640px) {
+  .avatar { object-position: center top; }
+}
 .tag {
   display: inline-flex; align-items: center; gap: 6px;
   background: #1F3D5C; color: var(--accent);
